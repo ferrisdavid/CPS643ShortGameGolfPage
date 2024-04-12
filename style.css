@@ -1,0 +1,125 @@
+html {
+    background-color: #1B1B1B;
+    color: #FFFF;
+    font-family: "Tilt Neon", sans-serif;
+
+}
+
+.bannerSection {    
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        flex: 1;
+
+        justify-content: center;
+    
+        .title {
+            font-size: 5rem;
+            font-weight: 500;
+            letter-spacing: 2px;
+            margin-block-start: 0.2em;
+            margin-block-end: 0.1em;
+        }
+
+        .author {
+            font-size: 1.5rem;
+            font-weight: 400;
+            letter-spacing: 1.4px;
+            margin-block-start: 0.2em;
+            margin-block-end: 0.2em;
+        }
+
+        .institution {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 1.2px;
+            margin-block-start: 0.2em;
+            color: #d8d6d6;
+        }
+
+        .description {
+            font-size: 1.85rem;
+            font-weight: 400;
+            letter-spacing: 1.7px;
+            margin-block-start: 0.2em;
+        }
+
+        .links {
+            display: flex;
+            gap: 10px;
+
+            .primaryBtn {
+                transition: 0.2s ease-in-out;
+                text-transform: uppercase;
+                font-size: 1.15rem;
+                letter-spacing: 1.4px;
+                font-weight: 400;
+                border-radius: 5px;
+                padding: 8px 24px;
+                color: white;
+                background-color: #3C8662;
+                border: 1px solid #3C8662;
+
+                &:hover {
+                    cursor: pointer;
+                    padding: 8px 26px;
+                }
+            }
+
+            .secondaryBtn {
+                transition: 0.2s ease-in-out;
+                text-transform: uppercase;
+                font-size: 1.15rem;
+                letter-spacing: 1.4px;
+                font-weight: 400;
+                border-radius: 5px;
+                padding: 8px 24px;
+                color: #1B1B1B;
+                border: 1px solid transparent;
+
+                &:hover {
+                    cursor: pointer;
+                    padding: 8px 26px;
+                }
+            }
+        }
+    }
+
+    .bannerImage {
+        flex-shrink: 1;
+        max-width: 50vw;
+    }
+}
+
+.content {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    .text {
+        flex-shrink: 1;
+    }
+
+    .asideImg {
+        flex-shrink: 1;
+        max-width: 45vw;
+    }
+}
+
+.sectionHeader {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+}
+
